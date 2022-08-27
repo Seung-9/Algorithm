@@ -23,12 +23,12 @@ public class BackJune1978 {
 
     public static void solution() {
         for(int i = 0; i < arr.length; i++) {
-            decimalCheck(arr[i]);
+            decCheck(arr[i]);
         }
         System.out.print(count);
     }
 
-    public static void decimalCheck(int num) {
+    public static void decCheck(int num) {
         count++;
         if(num == 1) {
             count--;
