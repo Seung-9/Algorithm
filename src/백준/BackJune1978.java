@@ -21,7 +21,7 @@ public class BackJune1978 {
         }
     }
 
-    public static void solution() {
+    public static void sol() {
         for(int i = 0; i < arr.length; i++) {
             decimalCheck(arr[i]);
         }
@@ -43,6 +43,6 @@ public class BackJune1978 {
 
     public static void main(String[] args) throws IOException {
         input();
-        solution();
+        sol();
     }
 }
