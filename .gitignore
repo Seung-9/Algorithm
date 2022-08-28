@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+# Java
+*.class
+
+# intellij
+.idea
+.out
+
+.DS_Store
+BackJune.iml
