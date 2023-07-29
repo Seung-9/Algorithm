@@ -1,2 +1,27 @@
-# Algorithm
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 
+# 백준 & 프로그래머스 문제 풀이 목록
+
+프로그래머스의 경우, 푼 문제 목록에 대한 마이그레이션이 필요합니다.
+
+## 📚 백준
+### 🚀 Bronze
+| 문제번호 | 링크 |
+| ----- | ----- |
+|1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)|
+|1001. A－B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/A%EF%BC%8DB.java)|
+|1008. A／B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1008.%E2%80%85A%EF%BC%8FB/A%EF%BC%8FB.java)|
+|10171. 고양이|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/README.md)|
+|10872. 팩토리얼|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10872.%E2%80%85%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC/%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC.java)|
+|1157. 단어 공부|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1157.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EA%B3%B5%EB%B6%80/README.md)|
+|1330. 두 수 비교하기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1330.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%E2%80%85%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0/%EB%91%90%E2%80%85%EC%88%98%E2%80%85%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0.java)|
+|25305. 커트라인|[링크](./%EB%B0%B1%EC%A4%80/Bronze/25305.%E2%80%85%EC%BB%A4%ED%8A%B8%EB%9D%BC%EC%9D%B8/README.md)|
+### 🚀 Silver
+| 문제번호 | 링크 |
+| ----- | ----- |
+|1015. 수열 정렬|[링크](./%EB%B0%B1%EC%A4%80/Silver/1015.%E2%80%85%EC%88%98%EC%97%B4%E2%80%85%EC%A0%95%EB%A0%AC/%EC%88%98%EC%97%B4%E2%80%85%EC%A0%95%EB%A0%AC.java)|
+|1018. 체스판 다시 칠하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1018.%E2%80%85%EC%B2%B4%EC%8A%A4%ED%8C%90%E2%80%85%EB%8B%A4%EC%8B%9C%E2%80%85%EC%B9%A0%ED%95%98%EA%B8%B0/%EC%B2%B4%EC%8A%A4%ED%8C%90%E2%80%85%EB%8B%A4%EC%8B%9C%E2%80%85%EC%B9%A0%ED%95%98%EA%B8%B0.java)|
+|1065. 한수|[링크](./%EB%B0%B1%EC%A4%80/Silver/1065.%E2%80%85%ED%95%9C%EC%88%98/%ED%95%9C%EC%88%98.java)|
+|10815. 숫자 카드|[링크](./%EB%B0%B1%EC%A4%80/Silver/10815.%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C/%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C.java)|
+|1181. 단어 정렬|[링크](./%EB%B0%B1%EC%A4%80/Silver/1181.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC/%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC.java)|
+|1182. 부분수열의 합|[링크](./%EB%B0%B1%EC%A4%80/Silver/1182.%E2%80%85%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9.java)|
+|18870. 좌표 압축|[링크](./%EB%B0%B1%EC%A4%80/Silver/18870.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%95%95%EC%B6%95/README.md)|
