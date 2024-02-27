@@ -1,20 +1,13 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.StringTokenizer;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class Main {
 
-    static int N, M;
-    static int[] arr;
-    static StringBuilder sb = new StringBuilder();
-
-    public static void main(String[] args) throws IOException {
-        input();
-        solution(1);
-        System.out.println(sb);
-    }
-
+    public static StringBuilder sb = new StringBuilder();
+    public static int N, M;
+    public static int[] nums;
 
     public static void input() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -22,23 +15,26 @@ public class Main {
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        arr = new int[M + 1];
+        nums = new int[M];
     }
 
-
-    public static void solution(int k) {
-        if (k == M + 1) {
-            for (int i = 1; i <= M; i++) {
-                sb.append(arr[i]).append(" ");
+    public static void rec_func(int start, int k) {
+        if (k == M) {
+            for (int i = 0; i < M; i++) {
+                sb.append(nums[i]).append(" ");
             }
             sb.append("\n");
         } else {
-            int start = arr[k - 1];
-            if (start == 0) start = 1;
             for (int i = start; i <= N; i++) {
-                arr[k] = i;
-                solution(k + 1);
+                nums[k] = i;
+                rec_func(nums[k], k + 1);
             }
         }
+    }
+
+    public static void main(String[] args) throws IOException {
+        input();
+        rec_func(1,0);
+        System.out.println(sb);
     }
 }
