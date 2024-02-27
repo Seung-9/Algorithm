@@ -18,7 +18,7 @@ public class Main {
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         nums = new int[M];
-        visited= new boolean[10000];
+        visited= new boolean[N];
 
         st = new StringTokenizer(br.readLine(), " ");
         arr = new int[N]; // 2번째 줄
@@ -36,11 +36,11 @@ public class Main {
             sb.append("\n");
         } else {
             for (int i = 0; i < N; i++) {
-                if (!visited[arr[i]]) {
-                    visited[arr[i]] = true;
+                if (!visited[i]) {
+                    visited[i] = true;
                     nums[k] = arr[i];
                     rec_func(k + 1);
-                    visited[arr[i]] = false;
+                    visited[i] = false;
                 }
             }
         }
