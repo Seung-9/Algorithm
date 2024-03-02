@@ -24,6 +24,10 @@
 |2581. 소수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2581.%E2%80%85%EC%86%8C%EC%88%98/README.md)|
 |2587. 대표값2|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2587.%E2%80%85%EB%8C%80%ED%91%9C%EA%B0%922/README.md)|
 |2743. 단어 길이 재기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2743.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EA%B8%B8%EC%9D%B4%E2%80%85%EC%9E%AC%EA%B8%B0/README.md)|
+### 🚀 Gold
+| 문제번호 | 링크 |
+| ----- | ----- |
+|9663. N－Queen|[링크](./%EB%B0%B1%EC%A4%80/Gold/9663.%E2%80%85N%EF%BC%8DQueen/README.md)|
 ### 🚀 Silver
 | 문제번호 | 링크 |
 | ----- | ----- |
