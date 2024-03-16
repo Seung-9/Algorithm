@@ -26,6 +26,7 @@ class Solution {
                     if (reserve[i] + 1 == lost[j] || reserve[i] - 1 == lost[j]) { // 여분을 가진 학생 +-1 이 도난 당한 학생의 번호와 같으면 count 증가
                         count++;
                         lost[j] = -1; // 해결 했으니까 초기화
+                        reserve[i] = -1;
                         break;
                     }
                 } else if (reserve[i] == n && reserve[i] - 1 == lost[j]){ // 여분을 가진 학생이 마지막 학생인 경우
