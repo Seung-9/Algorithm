@@ -2,35 +2,53 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    static int N;
+    static Person[] person;
+    static StringBuilder sb = new StringBuilder();
+
+    public static class Person {
+        int age;
+        String name;
+
+        Person(int age, String name) {
+            this.age = age;
+            this.name = name;
+        }
+    }
+
+    public static void input() throws IOException  {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
+        N = Integer.parseInt(br.readLine());
+        person = new Person[N];
+
         StringTokenizer st;
 
-        int N = Integer.parseInt(br.readLine());
-        String[][] arr = new String[N][2];
-
-        for (int i = 0; i < N; i++) {
+        for(int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine(), " ");
-            arr[i][0] = st.nextToken();
-            arr[i][1] = st.nextToken();
+            person[i] = new Person(Integer.parseInt(st.nextToken()), st.nextToken());
         }
+    }
 
-        Arrays.sort(arr, new Comparator<String[]>() {
+    public static void solution() {
+        Arrays.sort(person, new Comparator<Person>() {
             @Override
-            public int compare(String[] o1, String[] o2) {
-                return Integer.parseInt(o1[0]) - Integer.parseInt(o2[0]);
+            public int compare(Person o1, Person o2) {
+                return o1.age - o2.age;
             }
         });
 
-        for (int i = 0; i < N; i++) {
-            sb.append(arr[i][0] + " " + arr[i][1] + "\n");
-        }
+        for(int i = 0; i < person.length; i++)  sb.append(person[i].age).append(" ").append(person[i].name).append("\n");
+    }
+
+    public static void main(String[] args) throws IOException {
+        input();
+        solution();
         System.out.println(sb);
     }
 }
