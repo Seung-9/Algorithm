@@ -1,25 +1,23 @@
 class Solution {
-   public int[] solution(int n) {
-        int[] answer = new int[n*(n + 1) / 2]; // 4 9, 5 14, 6 19
-        int[][] arr = new int[n][n];
-        int x = -1;
-        int y = 0;
+    public int[] solution(int n) {
+        int[] answer = new int[n*(n + 1) / 2];
+        int x = 0, y = -1;
         int num = 1;
-
+        int[][] arr = new int[n][n];
+        
         for (int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
+            for(int j = i; j < n; j++) {
                 if (i % 3 == 0) {
-                    x++;
-                } else if (i % 3 == 1) {
                     y++;
+                } else if (i % 3 == 1) {
+                    x++;
                 } else {
-                    x--;
                     y--;
+                    x--;
                 }
-                arr[x][y] = num++;
+                arr[y][x] = num++;
             }
         }
-
         int index = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -27,7 +25,6 @@ class Solution {
                 answer[index++] = arr[i][j];
             }
         }
-
         return answer;
     }
 }
